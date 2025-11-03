@@ -1,0 +1,34 @@
+{
+  "name": "animal-facts-agent",
+  "version": "1.0.0",
+  "description": "Animal Facts AI Agent using Mastra",
+  "type": "module",
+  "main": "dist/mastra.js",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra serve",
+    "test": "tsx src/test.ts"
+  },
+  "keywords": [
+    "mastra",
+    "ai-agent",
+    "animal-facts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ai-sdk/google": "latest",
+    "@mastra/core": "^0.23.3",
+    "@mastra/libsql": "^0.16.1",
+    "@mastra/loggers": "^0.10.18",
+    "@mastra/memory": "^0.15.10",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
